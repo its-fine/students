@@ -9,4 +9,4 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 build_script:
-- ps: ../builds/Build.ps1
+- ps: builds/Build.ps1
