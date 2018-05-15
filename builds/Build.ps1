@@ -1,1 +1,1 @@
-& dotnet build ../src/Students.sln
+& dotnet build src/Students.sln
