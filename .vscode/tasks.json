@@ -10,6 +10,17 @@
                 "${workspaceFolder}/src/code/Students.WebApi/Students.WebApi.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "docs",
+            "command": "docfx",
+            "type": "process",
+            "args": [
+                "${workspaceFolder}/docs/docfx.json",
+                "--serve",
+                "-p 7500"
+            ],
+            "problemMatcher": []
         }
     ]
 }
