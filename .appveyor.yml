@@ -13,6 +13,8 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 services: mssql2017
+install:
+- cmd: dotnet restore src/Students.sln
 build:
   project: src/Students.sln
   verbosity: minimal
