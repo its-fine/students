@@ -1,4 +1,4 @@
-version: 1.0.{build}
+version: 1.0.0.{build}
 image: Visual Studio 2017
 branches:
   except:
@@ -13,8 +13,8 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 services: mssql2017
-install:
-- cmd: dotnet restore src/Students.sln
+before_build:
+- cmd: nuget restore src/Students.sln
 build:
   project: src/Students.sln
   verbosity: minimal
