@@ -12,5 +12,7 @@ dotnet_csproj:
   assembly_version: '{version}'
   file_version: '{version}'
   informational_version: '{version}'
-build_script:
-- cmd: dotnet build src/Students.sln
+services: mssql2017
+build:
+  project: src/Students.sln
+  verbosity: minimal
