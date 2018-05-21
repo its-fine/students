@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{3E
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Students.Database,SqlServer", "Students.Database,SqlServer\Students.Database,SqlServer.sqlproj", "{03653FD2-8A78-4C2F-A392-05B36C2BB6F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students.Repositories.SqlServer.Tests.Unit", "tests\Students.Repositories.SqlServer.Tests.Unit\Students.Repositories.SqlServer.Tests.Unit.csproj", "{066B47DB-F23F-4678-BE6A-2316D72DB52D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{03653FD2-8A78-4C2F-A392-05B36C2BB6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03653FD2-8A78-4C2F-A392-05B36C2BB6F8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{03653FD2-8A78-4C2F-A392-05B36C2BB6F8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{066B47DB-F23F-4678-BE6A-2316D72DB52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066B47DB-F23F-4678-BE6A-2316D72DB52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066B47DB-F23F-4678-BE6A-2316D72DB52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066B47DB-F23F-4678-BE6A-2316D72DB52D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{FC9FFF89-836B-4E48-9B5C-36ED9B55BAEF} = {720346AD-ECC0-4716-8A81-2DE6D62042FD}
 		{48D94CD8-4EB6-46C1-AC6A-6FC68E1AAFCB} = {720346AD-ECC0-4716-8A81-2DE6D62042FD}
 		{03653FD2-8A78-4C2F-A392-05B36C2BB6F8} = {3ED3E5D6-9FC8-47F3-BEDA-D417D45937EB}
+		{066B47DB-F23F-4678-BE6A-2316D72DB52D} = {B7BC0032-CD93-4367-AA44-49BA62A19248}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2576CDD-6C67-493B-AB23-2A1D3B33DCA7}
