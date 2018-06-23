@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Students.Domain", "code\Stu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{3ED3E5D6-9FC8-47F3-BEDA-D417D45937EB}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Students.Database,SqlServer", "Students.Database,SqlServer\Students.Database,SqlServer.sqlproj", "{03653FD2-8A78-4C2F-A392-05B36C2BB6F8}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Students.Database.SqlServer", "database\Students.Database.SqlServer\Students.Database.SqlServer.sqlproj", "{03653FD2-8A78-4C2F-A392-05B36C2BB6F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

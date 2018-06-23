@@ -1,0 +1,10 @@
+version: "3"
+services:
+    web:
+        build: code\Students.WebApi
+        ports:
+            - "8000:80"
+        depends_on:
+            - db
+    db:
+        build: database\Students.Database.SqlServer
